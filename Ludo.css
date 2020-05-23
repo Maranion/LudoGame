@@ -1,0 +1,1380 @@
+.bigSquare {
+    height: 350px;
+    width: 350px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    position: fixed;
+    bottom: left;
+}
+
+#containerBlue {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    width: 350px;
+    height: 350px;
+    background-color: #0092dc;
+}
+
+#containerRed {
+    position: fixed;
+    top: 0px;
+    left: 500px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    width: 350px;
+    height: 350px;
+    background-color: red;
+}
+
+#containerGreen {
+    position: fixed;
+    top: 500px;
+    left: 0px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    width: 350px;
+    height: 350px;
+    background-color: #84c21f;
+}
+
+#containerYellow {
+    position: fixed;
+    top: 500px;
+    left: 500px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    width: 350px;
+    height: 350px;
+    background-color: #f6c700;
+}
+
+#containerCentral {
+    position: fixed;
+    top: 350px;
+    left: 350px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    width: 150px;
+    height: 150px;
+}
+
+.triangleDown {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-top: 75px solid #dc2418;
+    position: absolute;
+    top: 0;
+}
+
+.triangleLeft {
+    width: 0;
+    height: 0;
+    border-right: 75px solid #f6c700;
+    border-bottom: 75px solid transparent;
+    border-top: 75px solid transparent;
+    position: absolute;
+    right: 0;
+}
+
+.triangleRight {
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-left: 75px solid #0092dc;
+    border-bottom: 75px solid transparent;
+    position: absolute;
+    left: 0;
+}
+
+.triangleUp {
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 75px solid #84c21f;
+    position: absolute;
+    bottom: 0;
+}
+
+#whitePath1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 0px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 50px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 100px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 150px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath5 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 200px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath6 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 250px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath7 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 300px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath8 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 300px;
+    left: 300px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath9 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 300px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath10 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 250px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath11 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 200px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath12 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 150px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath13 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 100px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath14 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 50px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath15 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 0px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath16 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 0px;
+    left: 400px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath17 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 0px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath18 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 50px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath19 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 100px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath20 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 150px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath21 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 200px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath22 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 250px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath23 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 300px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath24 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 300px;
+    left: 500px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath25 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 500px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath26 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 550px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath27 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 600px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath28 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 650px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath29 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 700px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath30 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 750px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath31 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 350px;
+    left: 800px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath32 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 800px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath33 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 800px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath34 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 750px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath35 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 700px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath36 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 650px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath37 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 600px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath38 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 550px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath39 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 500px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath40 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 500px;
+    left: 500px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath41 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 500px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath42 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 550px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath43 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 600px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath44 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 650px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath45 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 700px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath46 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 750px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath47 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 800px;
+    left: 450px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath48 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 800px;
+    left: 400px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath49 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 800px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath50 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 750px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath51 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 700px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath52 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 650px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath53 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 600px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath54 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 550px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath55 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 500px;
+    left: 350px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath56 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 500px;
+    left: 300px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath57 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 300px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath58 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 250px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath59 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 200px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath60 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 150px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath61 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 100px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath62 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 50px;
+    background-color: white;
+    position: fixed;
+}
+
+#whitePath63 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 450px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    position: fixed;
+    text-decoration: none;
+    padding: 0px;
+}
+
+#whitePath64 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 0px;
+    background-color: white;
+    position: fixed;
+}
+
+#bluePath1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 50px;
+    background-color: #0092dc;
+    position: fixed;
+}
+
+#bluePath2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 100px;
+    background-color: #0092dc;
+    position: fixed;
+}
+
+#bluePath3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 150px;
+    background-color: #0092dc;
+    position: fixed;
+}
+
+#bluePath4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 200px;
+    background-color: #0092dc;
+    position: fixed;
+}
+
+#bluePath5 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 250px;
+    background-color: #0092dc;
+    position: fixed;
+}
+
+#bluePath6 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 300px;
+    background-color: #0092dc;
+    position: fixed;
+}
+
+#redPath1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 50px;
+    left: 400px;
+    background-color: red;
+    position: fixed;
+}
+
+#redPath2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 100px;
+    left: 400px;
+    background-color: red;
+    position: fixed;
+}
+
+#redPath3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 150px;
+    left: 400px;
+    background-color: red;
+    position: fixed;
+}
+
+#redPath4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 200px;
+    left: 400px;
+    background-color: red;
+    position: fixed;
+}
+
+#redPath5 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 250px;
+    left: 400px;
+    background-color: red;
+    position: fixed;
+}
+
+#redPath6 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 300px;
+    left: 400px;
+    background-color: red;
+    position: fixed;
+}
+
+#yellowPath1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 750px;
+    background-color: #f6c700;
+    position: fixed;
+}
+
+#yellowPath2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 700px;
+    background-color: #f6c700;
+    position: fixed;
+}
+
+#yellowPath3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 650px;
+    background-color: #f6c700;
+    position: fixed;
+}
+
+#yellowPath4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 600px;
+    background-color: #f6c700;
+    position: fixed;
+}
+
+#yellowPath5 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 550px;
+    background-color: #f6c700;
+    position: fixed;
+}
+
+#yellowPath6 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 400px;
+    left: 500px;
+    background-color: #f6c700;
+    position: fixed;
+}
+
+#greenPath1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 750px;
+    left: 400px;
+    background-color: green;
+    position: fixed;
+}
+
+#greenPath2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 700px;
+    left: 400px;
+    background-color: green;
+    position: fixed;
+}
+
+#greenPath3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 650px;
+    left: 400px;
+    background-color: green;
+    position: fixed;
+}
+
+#greenPath4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 600px;
+    left: 400px;
+    background-color: green;
+    position: fixed;
+}
+
+#greenPath5 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 550px;
+    left: 400px;
+    background-color: green;
+    position: fixed;
+}
+
+#greenPath6 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 500px;
+    left: 400px;
+    background-color: green;
+    position: fixed;
+}
+
+#blueStart1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 100px;
+    left: 85px;
+    background-color: blue;
+    position: fixed;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0px;
+    border-radius: 50%;
+}
+
+#blueStart2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 100px;
+    left: 185px;
+    background-color: blue;
+    position: fixed;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0px;
+}
+
+#blueStart3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 200px;
+    left: 85px;
+    background-color: blue;
+    position: fixed;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0px;
+}
+
+#blueStart4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 200px;
+    left: 185px;
+    background-color: blue;
+    position: fixed;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 32px;
+    padding: 0px;
+}
+
+#redStart1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 100px;
+    left: 600px;
+    background-color: darkred;
+    position: fixed;
+}
+
+#redStart2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 100px;
+    left: 700px;
+    background-color: darkred;
+    position: fixed;
+}
+
+#redStart3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 200px;
+    left: 600px;
+    background-color: darkred;
+    position: fixed;
+}
+
+#redStart4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 200px;
+    left: 700px;
+    background-color: darkred;
+    position: fixed;
+}
+
+#yellowStart1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 600px;
+    left: 600px;
+    background-color: #cccc00;
+    position: fixed;
+}
+
+#yellowStart2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 600px;
+    left: 700px;
+    background-color: #cccc00;
+    position: fixed;
+}
+
+#yellowStart3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 700px;
+    left: 600px;
+    background-color: #cccc00;
+    position: fixed;
+}
+
+#yellowStart4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 700px;
+    left: 700px;
+    background-color: #cccc00;
+    position: fixed;
+}
+
+#greenStart1 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 600px;
+    left: 85px;
+    background-color: green;
+    position: fixed;
+}
+
+#greenStart2 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 600px;
+    left: 185px;
+    background-color: green;
+    position: fixed;
+}
+
+#greenStart3 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 700px;
+    left: 85px;
+    background-color: green;
+    position: fixed;
+}
+
+#greenStart4 {
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 0.1mm;
+    border-color: black;
+    top: 700px;
+    left: 185px;
+    background-color: green;
+    position: fixed;
+}

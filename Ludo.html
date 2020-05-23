@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="Ludo.css">
+
+
+    <style>
+        .button {
+            background-color: #ff99ff;
+            border: none;
+            color: white;
+            padding: 0px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            left: 1200px;
+            bottom: 200px;
+            height: 60px;
+            width: 100px;
+            margin: 9px 9px;
+            position: fixed;
+        }
+        
+        #RolledNum {
+            color: black;
+            left: 1230px;
+            bottom: 200px;
+            position: fixed;
+            font-size: 100px;
+        }
+        
+        #Turn {
+            color: black;
+            left: 1050px;
+            bottom: 350px;
+            position: fixed;
+            font-size: 40px;
+        }
+        
+        #P1B {
+            background-color: white;
+            border-style: solid;
+            border-width: 0.1mm;
+            border-color: black;
+            color: black;
+            padding: 0px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            left: 900px;
+            bottom: 200px;
+            height: 50px;
+            width: 50px;
+            margin: 9px 9px;
+            position: fixed;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="index.js"></script>
+    <button class="button" onclick="Roll()">Roll Dice</button>
+    <h1 id="RolledNum"></h1>
+    <h1 id="Turn">Now Blue is rolling the Dice</h1>
+
+
+
+
+
+
+    <table>
+        <div id="containerBlue">
+        </div>
+        <div id="containerGreen">
+        </div>
+        <div id="containerRed">
+        </div>
+        <div id="containerYellow">
+        </div>
+
+        <div id="containerCentral">
+            <div class="triangleDown"></div>
+            <div class="triangleLeft"></div>
+            <div class="triangleRight"></div>
+            <div class="triangleUp"></div>
+        </div>
+
+
+
+        <div id="whitePath1"></div>
+        <div id="whitePath2"></div>
+        <div id="whitePath3"></div>
+        <div id="whitePath4"></div>
+        <div id="whitePath5"></div>
+        <div id="whitePath6"></div>
+        <div id="whitePath7"></div>
+        <div id="whitePath8"></div>
+        <div id="whitePath9"></div>
+        <div id="whitePath10"></div>
+        <div id="whitePath11"></div>
+        <div id="whitePath12"></div>
+        <div id="whitePath13"></div>
+        <div id="whitePath14"></div>
+        <div id="whitePath15"></div>
+        <div id="whitePath16"></div>
+        <div id="whitePath17"></div>
+        <div id="whitePath18"></div>
+        <div id="whitePath19"></div>
+        <div id="whitePath20"></div>
+        <div id="whitePath21"></div>
+        <div id="whitePath22"></div>
+        <div id="whitePath23"></div>
+        <div id="whitePath24"></div>
+        <div id="whitePath25"></div>
+        <div id="whitePath26"></div>
+        <div id="whitePath27"></div>
+        <div id="whitePath28"></div>
+        <div id="whitePath29"></div>
+        <div id="whitePath30"></div>
+        <div id="whitePath31"></div>
+        <div id="whitePath32"></div>
+        <div id="whitePath33"></div>
+        <div id="whitePath34"></div>
+        <div id="whitePath35"></div>
+        <div id="whitePath36"></div>
+        <div id="whitePath37"></div>
+        <div id="whitePath38"></div>
+        <div id="whitePath39"></div>
+        <div id="whitePath40"></div>
+        <div id="whitePath41"></div>
+        <div id="whitePath42"></div>
+        <div id="whitePath43"></div>
+        <div id="whitePath44"></div>
+        <div id="whitePath45"></div>
+        <div id="whitePath46"></div>
+        <div id="whitePath47"></div>
+        <div id="whitePath48"></div>
+        <div id="whitePath49"></div>
+        <div id="whitePath50"></div>
+        <div id="whitePath51"></div>
+        <div id="whitePath52"></div>
+        <div id="whitePath53"></div>
+        <div id="whitePath54"></div>
+        <div id="whitePath55"></div>
+        <div id="whitePath56"></div>
+        <div id="whitePath57"></div>
+        <div id="whitePath58"></div>
+        <div id="whitePath59"></div>
+        <div id="whitePath60"></div>
+        <div id="whitePath61"></div>
+        <div id="whitePath62"></div>
+        <div id="whitePath63"></div>
+        <div id="whitePath64"></div>
+
+
+
+        <div id="bluePath1"></div>
+        <div id="bluePath2"></div>
+        <div id="bluePath3"></div>
+        <div id="bluePath4"></div>
+        <div id="bluePath5"></div>
+        <div id="bluePath6"></div>
+
+        <div id="redPath1"></div>
+        <div id="redPath2"></div>
+        <div id="redPath3"></div>
+        <div id="redPath4"></div>
+        <div id="redPath5"></div>
+        <div id="redPath6"></div>
+
+        <div id="yellowPath1"></div>
+        <div id="yellowPath2"></div>
+        <div id="yellowPath3"></div>
+        <div id="yellowPath4"></div>
+        <div id="yellowPath5"></div>
+        <div id="yellowPath6"></div>
+
+        <div id="greenPath1"></div>
+        <div id="greenPath2"></div>
+        <div id="greenPath3"></div>
+        <div id="greenPath4"></div>
+        <div id="greenPath5"></div>
+        <div id="greenPath6"></div>
+
+
+
+        <button id="blueStart1" onclick="Moveit(this.id)">1</button>
+        <div id="blueStart2">2</div>
+        <div id="blueStart3">3</div>
+        <div id="blueStart4">4</div>
+
+        <div id="redStart1"></div>
+        <div id="redStart2"></div>
+        <div id="redStart3"></div>
+        <div id="redStart4"></div>
+
+        <div id="yellowStart1"></div>
+        <div id="yellowStart2"></div>
+        <div id="yellowStart3"></div>
+        <div id="yellowStart4"></div>
+
+        <div id="greenStart1"></div>
+        <div id="greenStart2"></div>
+        <div id="greenStart3"></div>
+        <div id="greenStart4"></div>
+    </table>
+</body>
+
+</html>
